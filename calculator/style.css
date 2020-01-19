@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+body {
+    text-align: center;
+    background: -webkit-linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Safari */
+    background: -o-linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Opera */
+    background: -moz-linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Mozilla */
+    background: linear-gradient(to top right, #7a32d8, rgb(53, 235, 226));
+  /* Standard */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 75px;
+}
+
+button:focus {
+    outline:0;
+}
+
+#calculator {
+    font-family: "Quicksand", sans-serif;
+    margin: 60px auto;
+    padding: 0;
+    width: 300px;
+    background-color: rgb(37, 30, 44);
+}
+
+#screen {
+    height: 150px;
+    width: auto;
+    background-color: rgb(118, 35, 187);
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+#screen #calc {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#screen #result {
+  font-size: 50px;
+}
+
+.value,
+.equals,
+.C,
+.CE {
+  margin: 0;
+  width: 75px;
+  height: 60px;
+  font-size: 25px;
+  background-color: rgb(37, 30, 44);
+  color:antiquewhite;
+  border: none;
+}
+
+.value:hover,
+.equals:hover,
+.C:hover,
+.CE:hover {
+  font-size: 25px;
+  background-color: #1a1a1a;
+  color: antiquewhite;
+  border: none;
+}
